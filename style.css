@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+
+}
+
+.card {
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  border-radius: 20px;
+  background: linear-gradient(
+    210deg,
+    hsla(192, 100%, 37%, 0.799) 70%,
+    hsla(231, 76%, 70%, 0.736)
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cityInput {
+  font-size: 1.5rem;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.cityInput::placeholder {
+  color: hsl(218, 5%, 67%);
+}
+
+.cityInput:hover {
+  transform: scale(1.02);
+}
+
+.submitBtn {
+  font-size: 1.5rem;
+  height: 47.5px;
+  width: 47.5px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.submitBtn:hover {
+  transform: scale(1.1);
+}
+
+.submitBtn i {
+  color: hsl(218, 5%, 67%);
+}
+
+.submitBtn:active i {
+  color: hsl(218, 5%, 50%);
+}
+
+.weatherContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tempDisplay {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.emojiDisplay {
+  margin: 0;
+  font-size: 9rem;
+}
+
+.cityDisplay {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.errorDisplay {
+  font-size: 3rem;
+  display: none;
+}
+
+.humDisDisplay {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.humidityDisplay,
+.windSpeedDisplay {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#windspeed,
+#humidity {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      
+      <form class="weatherForm">
+        <input type="text" placeholder="Enter a city" class="cityInput" />
+        <button type="submit" class="submitBtn">
+          <i class="fas fa-search fa-sm"></i>
+        </button>
+      </form>
+
+      <div class="weatherCard" style="display: none;">
+        <div class="weatherContainer" >
+          <p class="cityDisplay">Wien</p>
+          <p class="tempDisplay">22°C</p>
+          <!-- -->
+          <p class="emojiDisplay" style="font-size: 100px">&#127780;</p>
+          <!-- sunny-->
+          <!-- <span style='font-size:100px;'>&#127781;</span>  -->
+          <!-- cloudy-->
+          <!-- <span style='font-size:100px;'>&#127783;</span> -->
+          <!-- rainy-->
+          <!-- <span style='font-size:100px;'>&#127784;</span> -->
+          <!-- snow-->
+  
+          <p class="errorDisplay">please enter a city</p>
+        </div>
+  
+        <div class="humDisDisplay">
+          <div class="humidity">
+            <p class="humidityDisplay">
+              <i class="fas fa-solid fa-water"></i> 70%
+            </p>
+            <p id="humidity">Humidity</p>
+          </div>
+  
+          <div class="windspeed">
+            <p class="windSpeedDisplay">
+              <i class="fas fa-light fa-wind"></i> 18 km/h
+            </p>
+            <p id="windspeed">Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
