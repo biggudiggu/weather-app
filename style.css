@@ -6,7 +6,6 @@ body {
   height: 100vh;
   color: white;
   font-family: Cochin, Georgia, Times, "Times New Roman", serif;
-
 }
 
 .card {
@@ -93,8 +92,8 @@ body {
 }
 
 .errorDisplay {
-  font-size: 3rem;
-  display: none;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .humDisDisplay {
