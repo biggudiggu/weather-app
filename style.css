@@ -67,6 +67,11 @@ body {
   color: hsl(218, 5%, 50%);
 }
 
+.weatherCard{
+  display: flex;
+  flex-direction: column;
+}
+
 .weatherContainer {
   display: flex;
   flex-direction: column;
@@ -87,7 +92,7 @@ body {
 }
 
 .cityDisplay {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -109,8 +114,8 @@ body {
   margin-top: 10px;
 }
 
-#windspeed,
-#humidity {
+.wind,
+.humIn {
   font-size: 1rem;
   margin: 0;
   padding: 0;
