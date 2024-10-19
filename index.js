@@ -10,7 +10,7 @@ const weatherContainer = document.querySelector(".weatherContainer");
 const card = document.querySelector(".card");
 const humDisDisplay = document.querySelector(".humDisDisplay");
 
-const apiKey = "65a62a648daa38a900d62be7fe8ec28a";
+const apiKey = "65a62a648daa38a90...";
 
 weatherForm.addEventListener("submit", async event => {
 
